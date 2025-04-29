@@ -1,0 +1,19 @@
+*{
+    box-sizing: ;
+    border-box: ;
+    margin: ;
+    padding: ;
+}
+
+body {
+    color: #be519e;
+
+}
+
+/*header menu */
+.menu{
+    background-color: #f79ac8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}

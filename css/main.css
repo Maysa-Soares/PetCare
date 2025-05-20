@@ -174,3 +174,26 @@ li {
     text-decoration: none;
     text-underline-offset: 4px;
 }
+
+#farmacia{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+    padding: 120px 5% 40px 5%; 
+    width: 100%;
+    position: relative;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+.paragrafo {    
+    line-height: 150%;
+}

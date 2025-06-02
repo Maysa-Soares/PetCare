@@ -1,4 +1,4 @@
-/* Seleione todos os elementos com a classe "duvida" */
+/* Seleione todos os elementos com a classe "Duvida" */
 const elementosDuvida = document.querySelectorAll(".duvida");
 
 elementosDuvida.forEach(function (duvida) {

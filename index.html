@@ -1,46 +1,185 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetCare</title>
 
-    <link rel="stylesheet" href="./css/main.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetCare</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <script src="./js/main.js" defer></script>
 </head>
+
 <body>
-    <header class="menu">
-        <a href="./index.html"><img src="./img/logo-white.svg" alt="Logo PetCare"></a>    
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#clinica">Clínica</a>
-            <a href="#farmacia">Farmácia</a>
-            <a href="#duvidas">Dúvidas</a>
-    </header>
+  <header class="menu">
+    <a href="index.html">
+      <img src="img/logo-pet-care.png" alt="logo petcare" width="70px" height="50px" />
+    </a>
+
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#clinica">Clínica</a>
+      <a href="#farmacia">Farmácia</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+  </header>
 
     <main>
-        <section id="inicio">
-            <img src="./img/gatofive-removebg-preview.png" alt="uma humana com um gato" width="580" height="580">
+      <!-- inicio -->
+    <section id="inicio">
+      <img class="img-inicio" src="img/aaa.png" alt="Uma humana com seu pet" width="580" height="580" class="img" />
 
-            <div class="texto-inicio">
-                <h1>
-                    Cuidando com amor de quem faz parte da sua família!
-                </h1>
+      <div>
+        <h1>Cuidando com <strong>amor</strong> de quem faz parte da sua família!</h1>
 
-                <p class="paragrafo">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsam neque esse doloribus quidem, ex quaerat adipisci est cupiditate. Voluptate alias dolorum asperiores exercitationem eveniet! Nobis quis ipsa ullam molestias.
-                </p>
-                
-                <a class="botao" href="https://wa.me/55987654321" target="_blank">Marcar consulta</a>
-                <a class="botao-transparente" href="#clinica">Conheça a clínica</a>
-           
-            </div>
+        <p class="paragrafo">
+          Cuidando com amor de quem faz parte da sua família. Porque quem você ama merece muito mais do que cuidado,
+          merece carinho, atenção, respeito, segurança e qualidade de vida. Aqui, cada detalhe é pensado para oferecer
+          um ambiente acolhedor, confortável e preparado para proporcionar bem-estar a quem é tão importante para você.
+          Nosso compromisso vai além do atendimento básico, é estar presente, ouvir, compreender e atender às
+          necessidades de cada pessoa de forma única, com responsabilidade, empatia e, acima de tudo, amor. Seja para
+          quem precisa de acompanhamento constante, de atenção no dia a dia ou simplesmente de um espaço seguro,
+          tranquilo e afetuoso, nossa missão é cuidar como se fosse da nossa própria família. Acreditamos que cuidar é
+          um verdadeiro ato de amor, que fortalece os laços, transforma vidas e leva mais tranquilidade e felicidade
+          tanto para quem recebe quanto para quem ama. </p>
 
-            <img class="absolute" src="./img/shape.svg" alt="banner decorativo">
-        </section>
+        <a class="botao" href="https://wa.me/55999887766" target="_blank">Marque uma consulta</a>
+        <a class="botao-transparente" href="#clinica">Conheça nossa clínica</a>
+      </div>
 
-        <section id="clinica"></section>
-        <section id="farmacia"></section>
-        <section id="duvidas"></section>
-    </main>
+    </section>
+    <!-- clinica -->
+    <section id="clinica">
+      <div>
+        <h1 class="titulo-clinica">Cuidados veterinário de qualidade</h1>
+
+        <p class="paragrafo">
+          Na nossa clínica veterinária, o bem-estar do seu pet está em primeiro lugar. Contamos com uma equipe dedicada
+          de profissionais apaixonados por animais, sempre prontos para oferecer um atendimento humanizado, seguro e de
+          alta qualidade. Com estrutura moderna e ambiente acolhedor, cuidamos de cães, gatos e outros animais com todo
+          o carinho e atenção que eles merecem.
+
+          Oferecemos uma ampla gama de serviços para garantir a saúde e a felicidade do seu companheiro:
+        </p>
+        <ul>
+          <li>Consultas e Exames de Rotina</li>
+          <li>Vacinação e Imunização</li>
+          <li>Cirurgias e Procedimentos Veterinários</li>
+          <li>Tratamento e Controles de doenças</li>
+          <li>Odontologia e Veterinária</li>
+          <li>Atendimento de Emergencia 24h</li>
+          <li>Nutrição e Aconselhamento alimentar personalizado</li>
+        </ul>
+
+        <a class="botao" href="https://wa.me/55999887766" target="_blank">Agendar consulta</a>
+        <a class="botao-transparente" href="#"> Como chegar? </a>
+      </div>
+
+      <img src="/img/img-clinica 1.jfif" alt="Uma humana com seu pet" width="580" height="580"
+        style="border-radius: 300px;" />
+    </section>
+
+    <!-- Farmácia -->
+    <section id="farmacia">
+      <div class="farmacia-container">
+        <h2>Venha conferir nosso petshop e farmácia</h2>
+        <img src="./img/farmacia.png" alt="Farmácia veterinária" width="450" height="400" class="img-farmacia">
+        <p class="paragrafo-farmacia">
+          Aqui, você encontra tudo para garantir o bem-estar e a saúde do seu pet! Oferecemos vacinas, medicamentos,
+          produtos de higiene e uma linha completa de alimentação, sempre com a qualidade e o carinho que seu melhor
+          amigo merece.
+        </p>
+      </div>
+    </section>
+
+    <!-- Dúvidas -->
+    <!-- Dúvidas -->
+    <section id="duvidas">
+      <img class="duvidas-img" src="./img/img-duvidas.png" alt=" Um humanos com cachorro" width="620" height="520" />
+
+      <div class="duvidas-container">
+        <h2 class="duvidas-title">Dúvidas mais frequentes: </h2>
+        <br />
+
+        <div class="duvida">
+          <h3>Quais serviços são oferecidos pela clínica?</h3>
+          <img src="./img/arrow-down.svg" alt="icone, seta para baixo" />
+          <p class="paragrafo">
+            Nossa clínica oferece uma ampla variedade de serviços, incluindo: tratamento de diversas doenças (como
+            Dermatologia, Cardiologia, Ortopedia, Oftalmologia,
+            Oncologia, entre outras), agendamento de consultas com informações do tutor, do animal e o motivo da visita,
+            além de um chatbot disponível para esclarecer quaisquer dúvidas.
+          </p>
+        </div>
+
+        <div class="duvida">
+          <h3>Quais espécies de animais a clínica atende?</h3>
+          <img src="./img/arrow-down.svg" alt="icone, seta para baixo" />
+          <p class="paragrafo">
+            Atendemos cães e gatos de todas as raças, além de outros animais, como coelhos, tartarugas, cacatuas e
+            diversas outras espécies.
+          </p>
+        </div>
+
+        <div class="duvida">
+          <h3>A clínica possui um estoque?</h3>
+          <img src="./img/arrow-down.svg" alt="icone, seta para baixo" />
+          <p class="paragrafo">
+            Sim, contamos com um amplo estoque que inclui alimentos, produtos de higiene e medicamentos específicos para
+            cada tipo de pet,
+            oferecendo uma grande variedade para atender às necessidades individuais de cada animal.
+          </p>
+        </div>
+
+        <div class="duvida">
+          <h3>Quando eu posso usar o chatbot?</h3>
+          <img src="./img/arrow-down.svg" alt="icone, seta para baixo" />
+          <p class="paragrafo">
+            Quando você precisar esclarecer dúvidas de forma rápida ou caso um de nossos atendentes não esteja
+            disponível,
+            contate o nosso suporte.
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container-info">
+      <div class="footer footer-logo">
+        <img src="./img/logo-pet-care.png" alt="logo petcare" width="70px" height="50px" /> <br /><br />
+        <p>Quem você ama merece todo cuidado e amor!</p>
+      </div>
+
+      <nav class="footer footer-nav">
+        <p class="footer-title">Links Rápidos</p>
+        <br />
+        <a href="#inicio" class="footer-a">Início</a><br />
+        <a href="#clinica" class="footer-a">Clínica</a><br />
+        <a href="#farmacia" class="footer-a">Farmácia</a><br />
+        <a href="#duvidas" class="footer-a">Dúvidas</a><br />
+      </nav>
+
+      <div class="footer footer-contato">
+        <p class="footer-title">Encontre-nos</p>
+        <br />
+        <p>Whatsapp: <a class="footer-link">(22) 4444-5555</a></p>
+        <br />
+        <p>Email: <a class="footer-link">petcare@petcare.com</a></p>
+        <br />
+        <p>Endereço: Rua dos Pets, 1 - Centro - Petlândia</p>
+        <br />
+      </div>
+    </div>
+
+    <div class="footer-container-dev">
+      <p class="footer-paragrafo">
+        Desenvolvido por @CodeRangers 2025 -
+        <a href="https://github.com/" class="footer-link-redes">Github</a>
+        <a href="https://br.linkedin.com/" class="footer-link-redes">Linkedin</a>
+      </p>
+    </div>
+  </footer>
+
 </body>
+
 </html>
